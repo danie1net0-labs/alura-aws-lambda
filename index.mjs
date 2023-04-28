@@ -5,6 +5,6 @@ export const handler = async (event) => {
 
   return {
     status: 200,
-    body: event,
+    var: process.env.SOME_VAR,
   };
 }
